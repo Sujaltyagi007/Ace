@@ -4,9 +4,9 @@ import ActivityGallery from '@/component/About/Activities/ActivityGallery'
 
 export default function page() {
   return (
-    <div>
-        <ActivityBanner />
-        <ActivityGallery />      
+    <div className=' w-full h-full'>
+      <ActivityBanner />
+      <ActivityGallery />      
     </div>
   )
 }

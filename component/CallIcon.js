@@ -29,7 +29,7 @@ const CallIcon = () => {
         }
       `}</style>
 
-            <div className="fixed bottom-20 right-4 md:bottom-28 md:right-8 z-50 cursor-pointer">
+            <div className="fixed bottom-4 left-6 md:bottom-8  z-50 cursor-pointer">
                 <Link href={'tel:+91-9910741417'}>
                     <div className="relative h-[40px] w-[40px]  md:h-[50px] md:w-[50px] rounded-full bg-blue-600 flex justify-center items-center cursor-pointer">
                         <span className="absolute h-full w-full rounded-full border border-blue-600 animate-calling"></span>
